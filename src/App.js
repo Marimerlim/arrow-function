@@ -21,12 +21,12 @@ export default class App extends Component {
 
   render() {
     return (
-      <>
+      <div>
         <h1>Adicionei o dobro de {this.state.fruta} no cesto</h1>
         <h3>Tinha {this.state.quantidade}</h3>
-        <p>{this.area()}</p>
+        <h4>{this.area()}</h4>
         <img src={this.state.cesto} alt="cesto" />
-      </>
+      </div>
     );
   }
 }
